@@ -1,0 +1,12 @@
+{
+  "media_id_invalid":  {
+    "media_id": "456c4sd65",
+    "except_errcode": 40007,
+    "except_errmsg": "invalid media_id hint"
+  },
+  "media_id_null": {
+    "media_id": "",
+    "except_errcode": 47001,
+    "except_errmsg": "data format error hint"
+  }
+}
