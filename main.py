@@ -20,8 +20,8 @@ def smokeTest():
 
 
 if __name__ == '__main__':
-    runner = BeautifulReport(allTest())
-    runner.report(description="微信公众平台接口测试", report_dir="reports")
+    runner = BeautifulReport(smokeTest())
+    runner.report(description="微信公众平台接口测试", report_dir="./reports")
 
 
 
